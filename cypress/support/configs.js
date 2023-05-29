@@ -37,5 +37,15 @@ export default {
     },
     "webCartItem": {
         "selector": ".cart__item"
+    },
+    "stickyAddToBag": {
+        "selector": ".StickyMobileSingle"
+    },
+    "cartMainContent": {
+        "selector": ".main-content"
+    },
+    "initialPrice": {
+        "selector": ".R-MlmProStickyPriceText",
+        "webselector": ".grid-product__price"
     }
 }
