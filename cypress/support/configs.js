@@ -47,5 +47,17 @@ export default {
     "initialPrice": {
         "selector": ".R-MlmProStickyPriceText",
         "webselector": ".grid-product__price"
+    },
+    "quantity": {
+        "selector": ".js-qty__num"
+    },
+    "quantityPlus": {
+        "selector": ".js-qty__adjust--plus"
+    },
+    "unitPrice": {
+        "selector": ".cart__price"
+    },
+    "subTotal": {
+        "selector": ".cart__item-row"
     }
 }
