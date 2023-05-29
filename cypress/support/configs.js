@@ -14,12 +14,28 @@ export default {
     "MLM": {
         "selector": ".grid-product__meta"
     },
-    "HeaderMenu": {
+    "headerMenu": {
         "selector": "span.site-nav__link--has-dropdown"
     },
     "shopDropdown": {
         "selector": ".is-focused > .site-nav__dropdown > :nth-child(1) > a"
+    },
+    "appAddToCart": {
+        "selector": ".StickyMobileSingle"
+    },
+    "cartItem": {
+        "selector": ".cart__item"
+    },
+    "cartLink": {
+        "selector": ".cart-link"
+    },
+    "cartRemove": {
+        "selector": ".cart__remove"
+    },
+    "webAddToCart": {
+        "selector": "#AddToCartNormal"
+    },
+    "webCartItem": {
+        "selector": ".cart__item"
     }
-
-
 }
