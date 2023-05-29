@@ -1,6 +1,6 @@
 import configs from "../support/configs"
 
-export const pageTitleControlWeb = () => {
+export const AddTheCartWeb = () => {
     cy.get(configs.headerMenu.selector)
         .contains('Shop')
         .trigger('mouseover');
@@ -8,9 +8,8 @@ export const pageTitleControlWeb = () => {
         .contains('Golf')
         .click();
     cy.get(configs.MLM.selector)
-        .eq(1)
+        .contains('Mobile Launch Monitor (MLM)')
         .click({ force: true })
-    cy.wait(2000)
-    cy.title()
-        .should('eq', 'Rapsodo® Mobile Launch Monitor | Golf MLM | Buy Online @ Rapsodo® Official Site');
+    cy.get(configs.webAddToCart.selector)
+        .click()
 }
